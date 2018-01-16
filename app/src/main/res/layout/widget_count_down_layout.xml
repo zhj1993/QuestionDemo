@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.yanzhenjie.countdownprogress.CircleTextProgressbar
+            android:id="@+id/circle_text_progress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="10" />
+    </LinearLayout>
+
+    <com.yanzhenjie.countdownprogress.ShapeTextView
+        android:id="@+id/shape_tv"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="invisible"
+        app:text="答错了" />
+</RelativeLayout>

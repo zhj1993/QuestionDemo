@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CircleTextProgressbar">
+        <attr name="in_circle_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="text">
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <!-- ShapeLayout 样式 -->
+    <declare-styleable name="shape_layout">
+        <attr name="type" format="integer" />
+        <attr name="color" format="color" />
+        <attr name="progress" format="integer" />
+    </declare-styleable>
+</resources>
